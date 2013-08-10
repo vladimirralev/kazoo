@@ -342,7 +342,7 @@ handle_search_error(Conference, Call, Srv) ->
     timer:sleep(crypto:rand_uniform(2000, 3000)),
     case whapps_conference_command:search(Conference) of
         {'error', _} ->
-            lager:debug("creating conference on switch nodename '~p'", [whapps_call:switch_hostname(Call)]),
+            lager:debug("creating conference on switch nodename '~p'", [whapps_call:switch_nodename(Call)]),
             conf_participant:set_conference(Conference, Srv),
             conf_participant:join_local(Srv);
         {'ok', JObj} ->
