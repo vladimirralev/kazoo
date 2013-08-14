@@ -31,7 +31,7 @@
           ,<<"Control-Queue">>, <<"Call-ID">>, <<"Application-Data">>
           ,<<"Account-ID">>, <<"Outbound-Call-ID">>, <<"Force-Fax">>
           ,<<"Call-ID">>, <<"Mode">>, <<"Group-ID">> % Eavesdrop
-          ,<<"Force-Outbound">>
+          ,<<"Force-Outbound">>, <<"Fax-Ident">>, <<"Fax-Header">>
          ]).
 -define(OFFNET_RESOURCE_REQ_VALUES
         ,[{<<"Event-Category">>, <<"resource">>}
