@@ -72,7 +72,7 @@
                                              ,<<"Existing-Call-ID">> % If set, use this node, otherwise ignore
                                              %% Eavesdrop
                                              ,<<"Eavesdrop-Call-ID">>, <<"Eavesdrop-Mode">>, <<"Eavesdrop-Group-ID">>
-                                             ,<<"Fax-Ident">>, <<"Fax-Header">>
+                                             ,<<"Fax-Identity-Number">>, <<"Fax-Identity-Name">>
                                          | fun() ->
                                                    wapi_dialplan:optional_bridge_req_headers()
                                            end()

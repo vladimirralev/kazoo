@@ -156,6 +156,8 @@
                                ,{<<"RECORD_APPEND">>, <<"RECORD_APPEND">>}
                                ,{<<"fax_enable_t38_request">>, <<"fax_enable_t38_request">>}
                                ,{<<"fax_enable_t38">>, <<"fax_enable_t38">>}
+                               ,{<<"Fax-Identity-Number">>, <<"fax_ident">>}
+                               ,{<<"Fax-Identity-Name">>, <<"fax_header">>}
                                ,{<<"sip_rh_X-Redirect-Server">>, <<"sip_rh_X-Redirect-Server">>}
                                ,{<<"park_after_bridge">>, <<"park_after_bridge">>}
                                ,{<<"continue_on_fail">>, <<"continue_on_fail">>}
